@@ -11,7 +11,7 @@
             <div> 
               {{ bot.status }} - {{ bot.order }}
               <div v-if="bot.time"> 
-                <div class="round-time-bar" :style="{'--duration': bot.time / 1000}" :key="bot.id">
+                <div class="round-time-bar" :style="{'--duration': bot.time / 1000}" :key="bot.order">
                   <div></div>
                 </div>
               </div>
